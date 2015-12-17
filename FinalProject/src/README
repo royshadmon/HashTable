@@ -1,0 +1,22 @@
+Roy Shadmon
+12/5/15
+
+Getting the hash value through multiplicative hashing works.
+Hash table doubles when load factor is greater than or equal to .75.
+The hash table doubles when it's reallocating, and it also will check
+if the new hash table size is a prime number and if it isn't it will find
+the closest prime number that is greater than the doubled hash table size.
+
+The arguments to run the program after compliling it with a makefile is
+
+UIMS inputFile1 inputFile2 ...
+
+if no input file is found, then it will let you type in names manually, and 
+after each name you type you would press the return key and type the next name.
+When you want to see the completed hash table, just press ctrl d after 
+manually inserting.
+
+IMPORTANT NOTE:
+After running UIMS with an input file, press ctrl d to print the hashtable, 
+because it will allow you to type in more names after all the names from
+the input file are put in the table.  
